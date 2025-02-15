@@ -1,0 +1,39 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build DLL",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-DMATHLIBRARY_EXPORTS",       // Define the export macro.
+                "-shared",
+                "-o",
+                "MathLibrary.dll",
+                "MathLibrary/MathLibrary.cpp",
+                "-Wl,--out-implib,MathLibrary.lib"  // Create an import library (optional).
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "label": "Build MainApp",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-o",
+                "MainApp.exe",
+                "MainApp/MainApp.cpp"
+            ],
+            "group": "build",
+            "problemMatcher": [
+                "$gcc"
+            ]
+        }
+    ]
+}
