@@ -1,5 +1,5 @@
 CMakeFiles/CartTest.dir/CartTest.cc.o: \
-  /Users/anshbhanushali/Desktop/SA_ARCH2/SA_Assignment3/CartTest.cc \
+  /Users/anshbhanushali/Desktop/SA_ARCH/SA_Assignment3/CartTest.cc \
   /opt/homebrew/include/gtest/gtest.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/cstddef \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__assert \
@@ -1047,6 +1047,6 @@ CMakeFiles/CartTest.dir/CartTest.cc.o: \
   /opt/homebrew/include/gmock/internal/custom/gmock-generated-actions.h \
   /opt/homebrew/include/gmock/gmock-more-matchers.h \
   /opt/homebrew/include/gmock/gmock-nice-strict.h \
-  /Users/anshbhanushali/Desktop/SA_ARCH2/SA_Assignment3/Cart.h \
-  /Users/anshbhanushali/Desktop/SA_ARCH2/SA_Assignment3/Item.h \
-  /Users/anshbhanushali/Desktop/SA_ARCH2/SA_Assignment3/ItemService.h
+  /Users/anshbhanushali/Desktop/SA_ARCH/SA_Assignment3/Cart.h \
+  /Users/anshbhanushali/Desktop/SA_ARCH/SA_Assignment3/Item.h \
+  /Users/anshbhanushali/Desktop/SA_ARCH/SA_Assignment3/ItemService.h

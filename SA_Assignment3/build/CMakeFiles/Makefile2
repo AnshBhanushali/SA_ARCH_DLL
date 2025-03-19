@@ -54,10 +54,10 @@ RM = /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/anshbhanushali/Desktop/SA_ARCH2/SA_Assignment3
+CMAKE_SOURCE_DIR = /Users/anshbhanushali/Desktop/SA_ARCH/SA_Assignment3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/anshbhanushali/Desktop/SA_ARCH2/SA_Assignment3/build
+CMAKE_BINARY_DIR = /Users/anshbhanushali/Desktop/SA_ARCH/SA_Assignment3/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -81,14 +81,14 @@ clean: CMakeFiles/CartTest.dir/clean
 CMakeFiles/CartTest.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CartTest.dir/build.make CMakeFiles/CartTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CartTest.dir/build.make CMakeFiles/CartTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/anshbhanushali/Desktop/SA_ARCH2/SA_Assignment3/build/CMakeFiles --progress-num=1,2 "Built target CartTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/anshbhanushali/Desktop/SA_ARCH/SA_Assignment3/build/CMakeFiles --progress-num=1,2 "Built target CartTest"
 .PHONY : CMakeFiles/CartTest.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/CartTest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/anshbhanushali/Desktop/SA_ARCH2/SA_Assignment3/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/anshbhanushali/Desktop/SA_ARCH/SA_Assignment3/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/CartTest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/anshbhanushali/Desktop/SA_ARCH2/SA_Assignment3/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/anshbhanushali/Desktop/SA_ARCH/SA_Assignment3/build/CMakeFiles 0
 .PHONY : CMakeFiles/CartTest.dir/rule
 
 # Convenience name for target.
