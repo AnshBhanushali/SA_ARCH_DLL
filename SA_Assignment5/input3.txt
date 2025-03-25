@@ -1,0 +1,2 @@
+Python is great. Python code is readable.
+Great Python scripts make learning fun.
